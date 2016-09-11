@@ -21,43 +21,43 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+	<div id="page" class="hfeed site">
 
-	<a class="skip-link screen-reader-text" href="#main"><?php _e( 'Skip to content', 'ingrid' ); ?></a>
+		<a class="skip-link screen-reader-text" href="#main"><?php _e( 'Skip to content', 'ingrid' ); ?></a>
 
-	<nav id="site-navigation" role="navigation">
-		<div class="container">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Menu', 'ingrid' ); ?></button>
-			<?php ingrid_theme_navigation(); ?>
+		<nav id="site-navigation" role="navigation">
+			<div class="container">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Menu', 'ingrid' ); ?></button>
+				<?php ingrid_theme_navigation(); ?>
 
-			<ul id="social-media">
-				<?php echo ingrid_social_media_links(); ?>
-			</ul>
-		</div>
-	</nav>
-	<!-- #site-navigation -->
-
-	<div class="container">
-
-		<header id="masthead" class="site-header" role="banner">
-
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/flowers-header.jpg" alt="<?php esc_attr_e( 'Flowers', 'ingrid' ); ?>" class="flowers">
-
-			<div class="site-branding text-center">
-				<?php if ( get_header_image() ) : ?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<img src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
-					</a>
-				<?php else : ?>
-					<h1 class="site-title">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					</h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				<?php endif; // End header image check. ?>
+				<ul id="social-media">
+					<?php echo ingrid_social_media_links(); ?>
+				</ul>
 			</div>
-			<!-- .site-branding -->
+		</nav>
+		<!-- #site-navigation -->
 
-		</header>
-		<!-- #masthead -->
+		<div class="container">
 
-		<main id="main" class="site-main" role="main">
+			<header id="masthead" class="site-header" role="banner">
+				<!--place header image here-->
+				<!-- <img src="" alt="<?php //esc_attr_e( 'Flowers', 'ingrid' ); ?>" class="flowers"> -->
+
+				<div class="site-branding text-center">
+					<?php if ( get_header_image() ) : ?>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+							<img src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
+						</a>
+					<?php else : ?>
+						<h1 class="site-title">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+						</h1>
+						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+					<?php endif; // End header image check. ?>
+				</div>
+				<!-- .site-branding -->
+
+			</header>
+			<!-- #masthead -->
+
+			<main id="main" class="site-main" role="main">

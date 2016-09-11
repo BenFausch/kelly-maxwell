@@ -192,7 +192,7 @@ function ingrid_customize_register( $wp_customize ) {
 
 	// Links
 	$wp_customize->add_setting( 'ingrid_links', array(
-		'default'           => '#fd83c6',
+		'default'           => '#ff00ff',
 		'sanitize_callback' => 'sanitize_hex_color',
 	) );
 
@@ -209,7 +209,7 @@ function ingrid_customize_register( $wp_customize ) {
 
 	// Links - Hover
 	$wp_customize->add_setting( 'ingrid_links_hover', array(
-		'default'           => '#82b37e',
+		'default'           => '#ff00ff',
 		'sanitize_callback' => 'sanitize_hex_color',
 	) );
 
