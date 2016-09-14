@@ -63,7 +63,7 @@ html {
 }
 
 @font-face {
-  font-family: 'pistilliregular,'Abril Fatface', serif';
+  font-family: 'pistilliregular';
   src: url('http://kelly-maxwell.com/wp-content/themes/ingrid/assets/fonts/pistilli-roman-webfont.woff2') format('woff2'), url('http://kelly-maxwell.com/wp-content/themes/ingrid/assets/fonts/pistilli-roman-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -906,8 +906,8 @@ body {
 .site-title {
   font-size: 80px;
   font-size: 10rem;
-  /*font-family: Cookie, cursive;*/
-  font-family: pistilliregular,'Abril Fatface', serif;
+  /*font-family: pistilliregular,'Abril Fatface', serif;*/
+  font-family: pistilliregular;
   font-weight: normal;
   letter-spacing: 0;
   line-height: 1em;
