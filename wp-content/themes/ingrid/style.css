@@ -63,12 +63,12 @@ html {
 }
 
 @font-face {
-  font-family: 'pistilliregular';
+  font-family: 'pistilliregular,'Abril Fatface', serif';
   src: url('assets/fonts/pistilli-roman-webfont.woff2') format('woff2'), url('assets/fonts/pistilli-roman-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-#pistilli{font-family:'pistilliregular'!important;}
+#pistilli{font-family:'pistilliregular,'Abril Fatface', serif'!important;}
 #playfair{font-family:'Playfair Display'!important;}
 #raleway{font-family:'Raleway'!important;}
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff0082;
   font-size: 31px;
   font-size: 3.1rem;
-  font-family: 'pistilliregular';
+  font-family: 'pistilliregular,'Abril Fatface', serif';
   font-weight: 300;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -905,7 +905,7 @@ body {
   font-size: 80px;
   font-size: 10rem;
   /*font-family: Cookie, cursive;*/
-  font-family: pistilliregular;
+  font-family: pistilliregular,'Abril Fatface', serif;
   font-weight: normal;
   letter-spacing: 0;
   line-height: 1em;

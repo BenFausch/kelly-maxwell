@@ -106,7 +106,7 @@ add_action( 'widgets_init', 'ingrid_theme_widgets_init' );
 */
 function ingrid_theme_scripts() {
 
-	wp_enqueue_style( 'droid-serif', '//fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic|Raleway:300,600,700|Playfair+Display' );
+	wp_enqueue_style( 'droid-serif', '//fonts.googleapis.com/css?family=Abril+Fatface|Raleway:300,600,700|Playfair+Display' );
 
 	wp_enqueue_style( 'ingrid', get_stylesheet_uri(), array(), '1.0.4' );
 	wp_add_inline_style( 'ingrid', ingrid_generate_custom_styles() );
