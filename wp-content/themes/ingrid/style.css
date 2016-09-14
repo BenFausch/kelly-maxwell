@@ -441,10 +441,12 @@ a:hover {
 }
 
 .entry-content a{
-  color:#4520FF;
+  color:#2201C7;
+  text-decoration: underline;
+  font-weight:bold;
 }
 .entry-content a:hover, .entry-content a:focus{
-  color:#999;
+  color:#ff0082;
 } 
 
 /*--------------------------------------------------------------
@@ -544,7 +546,7 @@ a:hover {
 }
 
 #site-navigation ul.menu li a:hover, #site-navigation div.menu > ul li a:hover {
-  color: #4520FF;
+  color: #2201C7;
 }
 
 @media (min-width: 768px) {
@@ -552,7 +554,7 @@ a:hover {
     padding: 8px 0;
   }
   #site-navigation ul.menu li a:after, #site-navigation div.menu > ul li a:after {
-    color: #4520FF;
+    color: #2201C7;
     content: "/";
     display: inline-block;
     margin: 0 12px;
@@ -639,7 +641,7 @@ a:hover {
 }
 
 #social-media li a:hover {
-  color: #4520FF;
+  color: #2201C7;
 }
 
 @media (min-width: 768px) {
@@ -987,7 +989,7 @@ article.post .entry-title a, article.page .entry-title a, section.error-404 .ent
   color: #ff0082;
 }
 article.post .entry-title a:hover, article.page .entry-title a:hover, section.error-404 .entry-title a:hover, .box .entry-title a:hover {
-color:#4520ff;
+color:#2201C7;
 }
 
 @media (min-width: 768px) {
@@ -1026,7 +1028,7 @@ article.post .post-meta span, article.page .post-meta span, section.error-404 .p
 }
 
 article.post .post-meta a, article.page .post-meta a, section.error-404 .post-meta a, .box .post-meta a {
-  color: #4520FF;
+  color: #2201C7;
   display: block;
   padding: 20px 25px;
 }
@@ -1118,7 +1120,7 @@ article.post .entry-footer > .clear > div, article.page .entry-footer > .clear >
 
       article.post .tagged, article.page .tagged, section.error-404 .tagged, .box .tagged {
         /*border-bottom: 1px solid #e5e5e5;*/
-        color: #4520FF;
+        color: #2201C7;
         font-family: Raleway, serif;
         font-style: italic;
         font-weight: normal;
@@ -1130,7 +1132,7 @@ article.post .entry-footer > .clear > div, article.page .entry-footer > .clear >
       }
 
       article.post .tagged a, article.page .tagged a, section.error-404 .tagged a, .box .tagged a {
-        color: #4520FF;
+        color: #2201C7;
       }
 
       article.post .tagged a:hover, article.page .tagged a:hover, section.error-404 .tagged a:hover, .box .tagged a:hover {
@@ -1190,7 +1192,7 @@ article.post .entry-footer > .clear > div, article.page .entry-footer > .clear >
 
 @media (min-width: 768px) {
   .comments-title .comment-count {
-    color: #4520FF;
+    color: #2201C7;
     display: block;
     font-weight: 600;
     height: 100%;
@@ -1563,7 +1565,7 @@ article.post .entry-footer > .clear > div, article.page .entry-footer > .clear >
 
 .naked-social-share a {
   background: #fafafa;
-  color: #4520FF;
+  color: #2201C7;
   font-size: 10px;
   font-size: 1rem;
   font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;

@@ -60,14 +60,14 @@
                 padding: 12px 16px;
 
                 &:hover {
-                    color: #4520FF;
+                    color: #2201C7;
                 }
 
                 @media (min-width: 768px) {
                     padding: 8px 0;
 
                     &:after {
-                        color: #4520FF;
+                        color: #2201C7;
                         content: "/";
                         display: inline-block;
                         margin: 0 12px;
@@ -164,7 +164,7 @@
             }
 
             &:hover {
-                color: #4520FF;
+                color: #2201C7;
             }
         }
     }
