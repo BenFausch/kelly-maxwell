@@ -443,7 +443,7 @@ a:hover {
 .entry-content a{
   color:#2201C7;
   text-decoration: underline;
-  font-weight:bold;
+  font-weight:600;
 }
 .entry-content a:hover, .entry-content a:focus{
   color:#ff0082;
