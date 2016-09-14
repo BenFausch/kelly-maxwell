@@ -906,8 +906,7 @@ body {
 .site-title {
   font-size: 80px;
   font-size: 10rem;
-  /*font-family: pistilliregular,'Abril Fatface', serif;*/
-  font-family: pistilliregular;
+  font-family: pistilliregular,'Abril Fatface', serif;
   font-weight: normal;
   letter-spacing: 0;
   line-height: 1em;
