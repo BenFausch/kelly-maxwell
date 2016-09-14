@@ -982,6 +982,7 @@ article.post .entry-title, article.page .entry-title, section.error-404 .entry-t
   margin: 0;
   padding: 20px 20px 18px;
   text-transform: none;
+  text-align:center;
 }
 
 article.post .entry-title a, article.page .entry-title a, section.error-404 .entry-title a, .box .entry-title a {
