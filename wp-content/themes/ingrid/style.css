@@ -107,7 +107,7 @@ p {
 --------------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ff00ff;
+  color: #ff0082;
   font-size: 31px;
   font-size: 3.1rem;
   font-family: 'pistilliregular';
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-header .page-title {
-  color: #ff00ff;
+  color: #ff0082;
   font-size: 31px;
   font-size: 6rem;
   font-family: "Playfair Display", serif;
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .entry-content h1, .entry-content h3, .comment-content h1, .comment-content h3, #tinymce h1, #tinymce h3 {
-  color: #ff00ff;
+  color: #ff0082;
 }
 
 .entry-content h2, .entry-content h4, .comment-content h2, .comment-content h4, #tinymce h2, #tinymce h4 {
@@ -422,13 +422,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="search"]:focus,
 --------------------------------------------------------------*/
 
 a {
-  color: #ff00ff;
+  color: #ff0082;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #ff00ff;
+  color: #ff0082;
   text-decoration: none;
 }
 
@@ -440,6 +440,12 @@ a:hover {
   border: 0;
 }
 
+.entry-content a{
+  color:#4520FF;
+}
+.entry-content a:hover, .entry-content a:focus{
+  color:#999;
+} 
 
 /*--------------------------------------------------------------
 4.2 Menus
@@ -451,7 +457,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .menu-toggle {
-    background: #ff00ff;
+    background: #ff0082;
     border: none;
     color: white;
     cursor: pointer;
@@ -478,12 +484,27 @@ a:hover {
   display: block;
 }
 #site-navigation.toggled ul.menu li{
-  border: 1px solid #ff00ff;
+  border: 1px solid #ff0082;
   border-top:none;
   text-align:center;
 }
 #site-navigation.toggled ul.menu li a{
   width:100%;
+}
+
+#site-navigation.toggled ul.menu li ul.sub-menu {
+  background-color:#ff0082;
+}
+#site-navigation.toggled ul.menu li ul.sub-menu li {
+  
+  border:none;
+  border-left: 3px solid #ff0082;
+  border-top: 1px solid #ff0082;
+
+}
+#site-navigation.toggled ul.menu li ul.sub-menu li a{
+  color:white;
+  padding:3px;
 }
 
 #site-navigation ul.menu, #site-navigation div.menu > ul {
@@ -517,7 +538,7 @@ a:hover {
 }
 
 #site-navigation ul.menu li a, #site-navigation div.menu > ul li a {
-  color: #ff00ff;
+  color: #ff0082;
   display: inline-block;
   padding: 12px 16px;
 }
@@ -540,7 +561,7 @@ a:hover {
 
 @media (min-width: 768px) {
   #site-navigation ul.menu li.menu-item-has-children:hover > .sub-menu, #site-navigation div.menu > ul li.menu-item-has-children:hover > .sub-menu {
-    border:1px solid #ff00ff;
+    border:1px solid #ff0082;
     background: white;
     display: block;
     float: none;
@@ -892,6 +913,11 @@ body {
   margin:.25em 0;
   text-transform: none;
 }
+@media (max-width: 768px) {
+  .site-title{
+    font-size:17vw;
+  }
+}
 
 .site-title a {
   color: #000;
@@ -902,7 +928,7 @@ body {
 }
 
 .site-description {
-  color: #4520FF;
+  color: #999;
   font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
@@ -925,15 +951,15 @@ article.post, article.page, section.error-404, .box {
 }
 
 article.post.sticky, article.page.sticky, section.error-404.sticky, .box.sticky {
-  border-color: #ff00ff;
+  border-color: #ff0082;
 }
 
 article.post.sticky .entry-header, article.post.sticky .tagged, article.page.sticky .entry-header, article.page.sticky .tagged, section.error-404.sticky .entry-header, section.error-404.sticky .tagged, .box.sticky .entry-header, .box.sticky .tagged {
-  border-bottom-color: #ff00ff;
+  border-bottom-color: #ff0082;
 }
 
 article.post.sticky .entry-footer, article.page.sticky .entry-footer, section.error-404.sticky .entry-footer, .box.sticky .entry-footer {
-  border-top-color: #ff00ff;
+  border-top-color: #ff0082;
 }
 
 article.post .entry-header, article.page .entry-header, section.error-404 .entry-header, .box .entry-header {
@@ -945,7 +971,7 @@ article.post .entry-header, article.page .entry-header, section.error-404 .entry
 }
 
 article.post .entry-title, article.page .entry-title, section.error-404 .entry-title, .box .entry-title {
-  color: #ff00ff;
+  color: #ff0082;
   font-size: 31px;
   font-size: 3.5rem;
   font-family: "Playfair Display";
@@ -958,7 +984,7 @@ article.post .entry-title, article.page .entry-title, section.error-404 .entry-t
 }
 
 article.post .entry-title a, article.page .entry-title a, section.error-404 .entry-title a, .box .entry-title a {
-  color: #ff00ff;
+  color: #ff0082;
 }
 article.post .entry-title a:hover, article.page .entry-title a:hover, section.error-404 .entry-title a:hover, .box .entry-title a:hover {
 color:#4520ff;
@@ -1202,11 +1228,11 @@ article.post .entry-footer > .clear > div, article.page .entry-footer > .clear >
 }
 
 .comment-list .comment.bypostauthor > .comment-body .comment-author, .comment-list .comment.bypostauthor > .comment-body .comment-meta {
-  border-color: #ff00ff;
+  border-color: #ff0082;
 }
 
 .comment-list .comment.bypostauthor > .comment-body .fn, .comment-list .comment.bypostauthor > .comment-body .fn a {
-  color: #ff00ff;
+  color: #ff0082;
 }
 
 .comment-list .comment.depth-2 {
@@ -1473,7 +1499,7 @@ article.post .entry-footer > .clear > div, article.page .entry-footer > .clear >
 }
 
 #design-credits {
-  color: #ff00ff;
+  color: #ff0082;
   margin-bottom: 20px;
 }
 

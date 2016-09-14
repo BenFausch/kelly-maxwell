@@ -65,7 +65,7 @@ tinymce.PluginManager.add('textcolor', function(editor) {
 			"3366FF", "Royal blue",
 			"800080", "Purple",
 			"999999", "Medium gray",
-			"FF00FF", "Magenta",
+			"ff0082", "Magenta",
 			"FFCC00", "Gold",
 			"FFFF00", "Yellow",
 			"00FF00", "Lime",

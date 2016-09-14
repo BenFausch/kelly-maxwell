@@ -220,7 +220,7 @@ p {
 1.1 Headings
 --------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-  color: #ff00ff;
+  color: #ff0082;
   font-size: 31px;
   font-size: 3.1rem;
   font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 .comment-content h3,
 #tinymce h1,
 #tinymce h3 {
-  color: #ff00ff; }
+  color: #ff0082; }
 .entry-content h2, .entry-content h4,
 .comment-content h2,
 .comment-content h4,
@@ -299,7 +299,7 @@ blockquote {
       left: 0;
       z-index: -1; } }
 h1, h2, h3, h4, h5, h6 {
-  color: #ff00ff;
+  color: #ff0082;
   font-size: 31px;
   font-size: 3.1rem;
   font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 .comment-content h3,
 #tinymce h1,
 #tinymce h3 {
-  color: #ff00ff; }
+  color: #ff0082; }
 .entry-content h2, .entry-content h4,
 .comment-content h2,
 .comment-content h4,
@@ -352,11 +352,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #747373; }
 
 a {
-  color: #ff00ff;
+  color: #ff0082;
   text-decoration: none;
   transition: all 0.2s; }
   a:hover {
-    color: #ff00ff;
+    color: #ff0082;
     text-decoration: none; }
 
 :focus {
