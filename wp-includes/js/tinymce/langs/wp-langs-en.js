@@ -55,7 +55,7 @@
 			"3366FF": "Royal blue",
 			"800080": "Purple",
 			"999999": "Medium gray",
-			"ff0082": "Magenta",
+			"FF00FF": "Magenta",
 			"FFCC00": "Gold",
 			"FFFF00": "Yellow",
 			"00FF00": "Lime",
