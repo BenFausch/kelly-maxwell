@@ -21,3 +21,4 @@ npm-debug.log
 build
 .well-known/acme-challenge
 .well-known
+.private-environment-settings.php

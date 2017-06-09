@@ -31,9 +31,7 @@
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Menu', 'ingrid' ); ?></button>
 				<?php ingrid_theme_navigation(); ?>
 
-				<ul id="social-media">
-					<?php echo ingrid_social_media_links(); ?>
-				</ul>
+				
 			</div>
 		</nav>
 		<!-- #site-navigation -->
