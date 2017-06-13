@@ -1036,7 +1036,21 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
   clear: both
 }
 
+
+
 @media (min-width: 769px) {
+	body:not(.home) #logo{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 5%;
+  text-align: left;
+}
+
+.site-header, .main-nagivation{
+	padding-bottom:0px;
+}
+
   .page-header {
     padding-bottom:60px
   }
