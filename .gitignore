@@ -22,3 +22,5 @@ build
 .well-known/acme-challenge
 .well-known
 .private-environment-settings.php
+
+/wp-content/wflogs/config.php
