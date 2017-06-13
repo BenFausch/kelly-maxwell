@@ -1018,7 +1018,8 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 }
 
 .page-title {
-  font-size: 30px
+  font-size: 30px;
+  display:none!important;
 }
 
 .page-header {
