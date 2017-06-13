@@ -1038,14 +1038,20 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 
 
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 	body:not(.home) #logo{
-  position: absolute;
-  top: 0px;
-  left: 10px;
-  width: 5%;
-  text-align: left;
-}
+		position: absolute;
+		top: 8px;
+		left: 18px;
+		text-align: left;
+	}	
+	body:not(.home) #logo h1{
+		font-size:18px;
+		line-height:18px;
+	}
+	body:not(.home) #logo h2{
+		display:none;
+	}
 
 .site-header, .main-nagivation{
 	padding-bottom:0px;
