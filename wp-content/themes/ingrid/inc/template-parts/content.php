@@ -50,7 +50,7 @@
 	<!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php //ingrid_theme_post_footer(); ?>
+		<?php ingrid_theme_post_footer(); ?>
 	</footer>
 	<!-- .entry-footer -->
 </article><!-- #post-## -->

@@ -90,7 +90,7 @@ input[type="submit"] {
     color: #888;
     font-size: 10px;
     font-size: 1rem;
-    font-family: Raleway, Georgia, serif;
+    font-family: Merriweather, Georgia, serif;
     font-style: italic;
     letter-spacing: .1em; }
 
@@ -105,7 +105,7 @@ input[type="submit"] {
     color: #888;
     font-size: 10px;
     font-size: 1rem;
-    font-family: Raleway, Georgia, serif;
+    font-family: Merriweather, Georgia, serif;
     font-style: italic;
     letter-spacing: .1em; }
   .gallery .gallery-item {
@@ -199,7 +199,7 @@ body {
   color: #888888;
   font-size: 12px;
   font-size: 1.2rem;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.8;
   text-align: justify;
@@ -220,10 +220,10 @@ p {
 1.1 Headings
 --------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-  color: #ff0082;
+  color: #82b37e;
   font-size: 31px;
   font-size: 3.1rem;
-  font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0;
   text-transform: uppercase; }
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fba99c;
   font-size: 31px;
   font-size: 3.1rem;
-  font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0;
   line-height: 1;
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 #tinymce h6 {
   font-size: 12px;
   font-size: 1.2rem;
-  font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   letter-spacing: .2em;
   margin: 0 0 20px;
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 .comment-content h3,
 #tinymce h1,
 #tinymce h3 {
-  color: #ff0082; }
+  color: #82b37e; }
 .entry-content h2, .entry-content h4,
 .comment-content h2,
 .comment-content h4,
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 1.2 Blockquotes
 --------------------------------------------------------------*/
 blockquote {
-  font-family: Raleway, Georgia, serif;
+  font-family: Merriweather, Georgia, serif;
   font-style: italic;
   margin: 20px 0; }
 
@@ -299,10 +299,10 @@ blockquote {
       left: 0;
       z-index: -1; } }
 h1, h2, h3, h4, h5, h6 {
-  color: #ff0082;
+  color: #82b37e;
   font-size: 31px;
   font-size: 3.1rem;
-  font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0;
   text-transform: uppercase; }
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fba99c;
   font-size: 31px;
   font-size: 3.1rem;
-  font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0;
   line-height: 1;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 #tinymce h6 {
   font-size: 12px;
   font-size: 1.2rem;
-  font-family: "Raleway", "Raleway", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   letter-spacing: .2em;
   margin: 0 0 20px;
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 .comment-content h3,
 #tinymce h1,
 #tinymce h3 {
-  color: #ff0082; }
+  color: #82b37e; }
 .entry-content h2, .entry-content h4,
 .comment-content h2,
 .comment-content h4,
@@ -352,11 +352,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #747373; }
 
 a {
-  color: #ff0082;
+  color: #fd83c6;
   text-decoration: none;
   transition: all 0.2s; }
   a:hover {
-    color: #ff0082;
+    color: #82b37e;
     text-decoration: none; }
 
 :focus {

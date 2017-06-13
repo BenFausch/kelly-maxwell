@@ -27,7 +27,7 @@
 	<!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php //edit_post_link( __( 'Edit', 'ingrid' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'ingrid' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer>
 	<!-- .entry-footer -->
 </article><!-- #post-## -->

@@ -77,25 +77,24 @@ if ( ! function_exists( 'ingrid_theme_post_footer' ) ) {
 			?>
 		</div>
 
-		<!-- <div class="clear"> -->
-			<!-- <div class="ingrid-social-share">
+		<div class="clear">
+			<div class="ingrid-social-share">
 				<div class="share-links">
-					<?php// _e( 'Share:', 'ingrid' ); ?>
-					<a href="http://twitter.com/home?status=<?php// the_title(); ?> <?php// the_permalink(); ?>" target="_blank"><?php// _e( 'Twitter', 'ingrid' ); ?></a>
+					<?php _e( 'Share:', 'ingrid' ); ?>
+					<a href="http://twitter.com/home?status=<?php the_title(); ?> <?php the_permalink(); ?>" target="_blank"><?php _e( 'Twitter', 'ingrid' ); ?></a>
 					/
-					<a href="http://www.facebook.com/sharer.php?u=<?php// the_permalink(); ?>&t=<?php// the_title(); ?>" target="_blank"><?php// _e( 'Facebook', 'ingrid' ); ?></a>
+					<a href="http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>" target="_blank"><?php _e( 'Facebook', 'ingrid' ); ?></a>
 					/
-					<a href="javascript:void((function(){var%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)})());" target="_blank"><?php// _e( 'Pinterest', 'ingrid' ); ?></a>
+					<a href="javascript:void((function(){var%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)})());" target="_blank"><?php _e( 'Pinterest', 'ingrid' ); ?></a>
 					/
-					<a href="<?php// the_permalink(); ?>"><?php// _e( 'Post Link', 'ingrid' ); ?></a>
+					<a href="<?php the_permalink(); ?>"><?php _e( 'Post Link', 'ingrid' ); ?></a>
 				</div>
 			</div>
- -->
-			<!-- <div class="comment-link"> -->
-				<!-- <a href="<?php comments_link(); ?>">
-				<?php /*comments_number( __( '0 Comments', 'ingrid' ), __( '1 Comment', 'ingrid' ), __( '% Comments', 'ingrid' ) ); */?></a> -->
-			<!-- </div> -->
-		<!-- </div> -->
+
+			<div class="comment-link">
+				<a href="<?php comments_link(); ?>"><?php comments_number( __( '0 Comments', 'ingrid' ), __( '1 Comment', 'ingrid' ), __( '% Comments', 'ingrid' ) ); ?></a>
+			</div>
+		</div>
 	<?php
 	}
 }
