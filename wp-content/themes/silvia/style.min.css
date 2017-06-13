@@ -1356,6 +1356,10 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
   color: #2196F3
 }
 
+.taxonomy-description{
+	display:none!important;
+}
+
 @media (min-width: 768px) {
   .single .entry-post {
     width:74.2857142857%;
