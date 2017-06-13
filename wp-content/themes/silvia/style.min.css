@@ -1344,7 +1344,8 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 }
 
 .thumbnail-detail .cat-links {
-  font-style: italic
+  font-style: italic;
+  display:none!important;
 }
 
 .thumbnail-detail .cat-links a {
