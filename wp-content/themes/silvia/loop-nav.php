@@ -1,6 +1,6 @@
 <?php if ( is_singular( 'post' ) ) : // If viewing a single post page. ?>
 
-	<div class="loop-nav">
+	<div class="loop-nav" style="display:none">
 		<?php previous_post_link( '<div class="prev">' . __( 'Previous: %link', 'silvia' ) . '</div>', '%title' ); ?>
 		<?php next_post_link( '<div class="next">' . __( 'Next: %link', 'silvia' ) . '</div>', '%title' ); ?>
 	</div><!-- .loop-nav -->
