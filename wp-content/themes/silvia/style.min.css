@@ -1326,10 +1326,13 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 .thumbnail-link {
   position: relative;
   display: block;
-  overflow: hidden;
-  height: 230px;
-  max-height: 230px;
-  /* width: auto; */
+}
+
+body.category .thumbnail-link{
+    overflow: hidden;
+    height: 230px;
+    max-height: 230px;
+  
 }
 
 .thumbnail-link:hover img {
