@@ -1039,22 +1039,22 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 
 
 @media (min-width: 768px) {
-	body:not(.home) #logo{
-		position: absolute;
-		top: 8px;
-		left: 18px;
-		text-align: left;
-	}	
-	body:not(.home) #logo h1{
-		font-size:18px;
-		line-height:18px;
-	}
-	body:not(.home) #logo h2{
-		display:none;
-	}
+  body:not(.home) #logo{
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    text-align: left;
+  } 
+  body:not(.home) #logo h1{
+    font-size:18px;
+    line-height:18px;
+  }
+  body:not(.home) #logo h2{
+    display:none;
+  }
 
 .site-header, .main-nagivation{
-	padding-bottom:0px;
+  padding-bottom:0px;
 }
 
   .page-header {
@@ -1325,7 +1325,11 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 
 .thumbnail-link {
   position: relative;
-  display: block
+  display: block;
+  overflow: hidden;
+  height: 230px;
+  max-height: 230px;
+  /* width: auto; */
 }
 
 .thumbnail-link:hover img {
@@ -1346,7 +1350,8 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 
 @media (min-width: 768px) {
   .thumbnail-link img {
-    width:auto
+    width:auto;
+    min-height: 230px;
   }
 }
 
@@ -1378,7 +1383,7 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 }
 
 .taxonomy-description{
-	display:none!important;
+  display:none!important;
 }
 
 @media (min-width: 768px) {
