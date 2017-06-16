@@ -42,6 +42,9 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+define('WP_MEMORY_LIMIT', '128M');
+
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -83,6 +86,10 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+
+set_time_limit(60);
+
+
 
 /* That's all, stop editing! Happy blogging. */
 
