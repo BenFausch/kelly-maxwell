@@ -1,7 +1,7 @@
 /*!
  * Theme Name: Silvia
  * Theme URI: https://www.theme-junkie.com/themes/silvia/
- * Description: Silvia is a light, bright and beautiful photography WordPress theme. ItÃ¢â‚¬â„¢s ideal for website focused on photography, graphic design, fashion, art, architecture, interior design, and other creative fields! Key features are responsive, retina support, fast load and SEO friendly with Schema.org markup. The theme options are powered by easy-to-use Customizer, allows you to modify various options including colors, typography, layout, etc. It also smoothly integrated with Jetpack and Polylang plugin. Demo: http://demo.theme-junkie.com/silvia
+ * Description: Silvia is a light, bright and beautiful photography WordPress theme. ItÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s ideal for website focused on photography, graphic design, fashion, art, architecture, interior design, and other creative fields! Key features are responsive, retina support, fast load and SEO friendly with Schema.org markup. The theme options are powered by easy-to-use Customizer, allows you to modify various options including colors, typography, layout, etc. It also smoothly integrated with Jetpack and Polylang plugin. Demo: http://demo.theme-junkie.com/silvia
  * Version: 1.0.9
  * Author: Theme Junkie
  * Author URI: https://www.theme-junkie.com/
@@ -1257,7 +1257,7 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 }
 
 .hentry {
-  margin-bottom: 60px
+  margin-bottom: 60px;
 }
 
 @media (min-width: 768px) {
@@ -1274,9 +1274,17 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 
 @media (min-width: 768px) {
   .hentry.post-grid-3-col {
-    width:32.2033898305%;
-    float: left;
-    margin-right: 1.6949152542%
+    /* width:32.2033898305%; */
+    /* float: left; */
+    /* margin-right: 1.6949152542%; */
+    width: 30%;
+    display: inline-block;
+    margin-rigth: 1%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    /* padding: 0; */
+    overflow: hidden;
+    min-height: 310px;
   }
 
   .hentry.post-grid-3-col:nth-of-type(3n) {
